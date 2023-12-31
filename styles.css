@@ -89,23 +89,23 @@ img{
         justify-items: center;
       }
       img{
-        width: 480px ;
+        width: 460px ;
         padding: 0px;
        }
     .explainerText{
-        width: 480px;
+        width: 460px;
         margin: 0px,0px, 0px, 0px;
     }
     .explainerBellow{
-        width: 480px;
+        width: 460px;
         font-size: 15px;
         margin-bottom: 20px;
         margin-top: 5px;
     }
     .body_container {
         
-        width: 480px;
-        padding: 0px;
+        width: 460px;
+        padding: 10px;
         
     
         
