@@ -89,22 +89,22 @@ img{
         justify-items: center;
       }
       img{
-        width: 460px ;
+        width: 310px ;
         padding: 0px;
        }
     .explainerText{
-        width: 460px;
+        width: 310px;
         margin: 0px,0px, 0px, 0px;
     }
     .explainerBellow{
-        width: 460px;
+        width: 310px;
         font-size: 15px;
         margin-bottom: 20px;
         margin-top: 5px;
     }
     .body_container {
         
-        width: 460px;
+        width: 310px;
         padding: 10px;
         
     
