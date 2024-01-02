@@ -33,7 +33,7 @@ h1{
 
 .explainer_links{
     text-decoration: none;
-    color: #6b6b6b;
+    color: #808080;
 }
 .explainer_links:hover {
     color: #ff0000;
@@ -42,7 +42,7 @@ h1{
     padding: 8px 4px 8px 2px;
     text-decoration: none;
     font-size: 15px;
-    color: #6d6d6d;
+    color: #808080;
     display: grid;
     justify-items: right; 
   }
@@ -76,6 +76,7 @@ h1{
 .project_container {
     margin-top: 40px;
     margin-bottom: 50px;
+    width: 600px;
     
 }
 .role_title{
@@ -102,6 +103,34 @@ img{
     margin-top: 5px;
 }
 
+.videoWrapper_4_3 {
+    position: relative;
+    padding-bottom: 75%; 
+    height: 0;
+    margin-bottom: 20px;
+  }
+  .videoWrapper_4_3 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .videoWrapper_16_9 {
+    position: relative;
+    padding-bottom: 56.25%; 
+    height: 0;
+    margin-bottom: 20px;
+  }
+  .videoWrapper_16_9 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
 @media screen and (max-width: 860px) {
     .sidebar {
         width: 100%;
@@ -112,29 +141,25 @@ img{
         margin-left: 0px;
         visibility: hidden;
        
-        
-      }
+    }
 
-      .body_container{
+    .body_container{
         margin-top: 0px;
         float: right;
-    
     }
-      .top_nav{
-       
+    .top_nav{
         visibility: visible ;
-        
-    
     }
-      .sidebar_links{
+    .sidebar_links{
        
         display: inline-flex;
         justify-items: center;
-      }
-      img{
+    }
+    
+    img{
         width: 320px ;
         padding: 0px;
-       }
+    }
     .explainerText{
         width: 320px;
         margin: 0px,0px, 0px, 0px;
@@ -151,4 +176,12 @@ img{
         padding-left: 0px;
         
      }
-  }
+     .project_container {
+        margin-top: 40px;
+        margin-bottom: 50px;
+        width: 320px;
+     }
+    
+    }
+        
+      
