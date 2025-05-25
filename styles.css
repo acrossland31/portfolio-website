@@ -49,6 +49,18 @@ h1{
   .sidebar_links:hover {
     color: #ff0000;
   }
+.topbar_links{
+    padding: 8px 4px 8px 2px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #808080;
+    display: grid;
+    justify-items: right; 
+    line-height: 1.5;
+  }
+  .topbar_links:hover {
+    color: #ff0000;
+  }
 .sidebar_title {
     padding: 8px 4px 8px 2px;
     margin-bottom: 30px;
@@ -156,8 +168,24 @@ img{
     .body_container{
         margin-top: 0px;
     }
-    .top_nav{
-        visibility: visible ;
+    .top_nav {
+        visibility: visible;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap; /* Allow wrapping for other links if needed */
+    }
+    .topbar_links {
+        padding: 8px 4px 8px 2px;
+        text-decoration: none;
+        font-size: 12px;
+        color: #808080;
+        display: inline-flex; /* Changed from grid to inline-flex */
+        justify-items: center;
+        line-height: 1.5;
+        white-space: nowrap; /* Prevents line break within the link text */
+    }
+    .topbar_links:hover {
+        color: #ff0000;
     }
     .sidebar_links{
        
