@@ -1,14 +1,38 @@
-<div class= "body_container">
-            <div class="project_container">
-                
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Two Videos Side by Side</title>
+  <style>
+    .video-container {
+      display: flex;
+      align-items: flex-start; /* or center, or stretch depending on your layout */
+    }
 
+    .video-container video {
+      width: 300px; /* or any width you want */
+      height: auto;
+    }
 
-<video autoplay loop muted playsinline>
-  <source src="https://raw.githubusercontent.com/acrossland31/portfolio-website/main/MHAP_h.264/GD_300x600_B2_v01.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+    .video-container video + video {
+      margin-left: 20px; /* adjust spacing between the videos */
+    }
+  </style>
+</head>
+<body>
 
-            
+  <div class="video-container">
+    <video autoplay loop muted playsinline>
+      <source src="https://raw.githubusercontent.com/acrossland31/portfolio-website/main/MHAP_h.264/GD_300x600_B2_v01.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
 
-                
-            </div>
+    <video autoplay loop muted playsinline>
+      <source src="https://raw.githubusercontent.com/acrossland31/portfolio-website/main/MHAP_h.264/GD_300x600_B2_v01.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+</body>
+</html>
+
