@@ -3,36 +3,51 @@
 <head>
   <meta charset="UTF-8">
   <title>Two Videos Side by Side</title>
-  <style>
-    .video-container {
-      display: flex;
-      align-items: flex-start; /* or center, or stretch depending on your layout */
-    }
 
-    .video-container video {
-      width: 300px; /* or any width you want */
-      height: auto;
-    }
+<style>
+  .video-row {
+    display: flex;
+    margin-bottom: 20px; /* space between rows */
+  }
 
-    .video-container video + video {
-      margin-left: 20px; /* adjust spacing between the videos */
-    }
-  </style>
-</head>
-<body>
+  .video-row video {
+    width: 300px;
+    height: auto;
+  }
 
-  <div class="video-container">
-    <video autoplay loop muted playsinline>
-      <source src="https://raw.githubusercontent.com/acrossland31/portfolio-website/main/MHAP_h.264/GD_300x600_B2_v01.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
+  .video-row video + video {
+    margin-left: 20px; /* space between videos in same row */
+  }
+</style>
 
-    <video autoplay loop muted playsinline>
-      <source src="https://raw.githubusercontent.com/acrossland31/portfolio-website/main/MHAP_h.264/GD_300x600_B2_v01.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </div>
+<div class="video-row">
+  <video autoplay loop muted playsinline>
+    <source src="https://raw.githubusercontent.com/acrossland31/portfolio-website/main/MHAP_h.264/GD_300x600_B2_v01.mp4" type="video/mp4">
+  </video>
+  <video autoplay loop muted playsinline>
+    <source src="video2.mp4" type="video/mp4">
+  </video>
+</div>
+
+<div class="video-row">
+  <video autoplay loop muted playsinline>
+    <source src="https://raw.githubusercontent.com/acrossland31/portfolio-website/main/MHAP_h.264/GD_300x600_B2_v01.mp4" type="video/mp4">
+  </video>
+</div>
+
+<div class="video-row">
+  <video autoplay loop muted playsinline>
+    <source src="video4.mp4" type="video/mp4">
+  </video>
+  <video autoplay loop muted playsinline>
+    <source src="video5.mp4" type="video/mp4">
+  </video>
+  <video autoplay loop muted playsinline>
+    <source src="video6.mp4" type="video/mp4">
+  </video>
+</div>
 
 </body>
 </html>
+
 
